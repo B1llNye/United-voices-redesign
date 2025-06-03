@@ -1,0 +1,129 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a base font and background */
+body {
+  font-family: 'lucida console', Monaco, monospace;
+  background-color: #f9f9f9;
+  color: #585858;
+  line-height: 1.6;
+}
+
+/* Basic container styling */
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0em;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: #1b3553;
+}
+
+p {
+  margin-bottom: 1em; /* Adjust the value as needed */
+}
+
+/* Links */
+a {
+  color: #1b3553;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Example button style */
+.button {
+  background: #0077cc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button:hover {
+  background: #005fa3;
+}
+
+.main-header {
+  color: #000;
+  font-size: 2.5em;
+}
+
+.intro {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  padding: 5px 0; /* Optional: adds space inside the borders */
+  margin:30px 0;  /* Optional: adds space outside the borders */
+}
+
+.uv-header {
+  padding: 0;
+  color: #000000;
+  margin: 0 0 1.5em 0; /* Same space below as paragraphs */
+}
+
+.contact-heading {
+  font-size: 2.5em;
+  border-top: 2px solid #000;
+  padding: 4px 0 0 0;      /* Remove bottom padding */
+  margin: 30px 0 0 0;  /* Smaller bottom margin */
+}
+
+.beliefs ul {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.belief-space {
+  margin-bottom: 1.5em; /* Adjust the value as needed */
+}
+
+.logo {
+  width: 600px;
+  height: 600px;
+  object-fit: contain; /* Keeps aspect ratio, prevents distortion */
+  display: block;
+  margin: 0 auto; /* Optional: centers the image */
+}
+.contact ul {
+  list-style-position: inside;
+  margin-top: 0;        /* Remove space above the list */
+  padding-left: 0;
+  margin-left: 0;
+  font-size: 1.25em; /* Makes the contact list text bigger */
+  font-weight: bold;
+  color: #000000;
+  border-bottom: 2px solid #000;
+  padding: 10px 0; /* Optional: adds space inside the borders */
+}
+
+.contact-heading {
+  font-size: 1.8em; /* Adjust as needed */
+  color: #000;
+  border-top: 2px solid #000;
+  padding: 4px 0; /* Optional: adds space inside the borders */
+  margin: 30px 0;  /* Optional: adds space outside the borders */
+  margin-bottom: 0.2em; /* Reduce space below the header */
+}
+
+.contact a {
+  color: #1b3553; /* Or any color you prefer */
+  font-weight: normal;
+  text-decoration: none;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
