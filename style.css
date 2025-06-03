@@ -110,6 +110,14 @@ a:hover {
   padding: 10px 0; /* Optional: adds space inside the borders */
 }
 
+.logo {
+  width: 100%;
+  max-width: 500px; /* or your preferred max size */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .contact-heading {
   font-size: 1.8em; /* Adjust as needed */
   color: #000;
